@@ -1,0 +1,37 @@
+{
+    "title": "Website Tech Stack Lookup input",
+    "type": "object",
+    "schemaVersion": 1,
+    "properties": {
+        "domains": {
+            "title": "Domains or URLs",
+            "type": "array",
+            "description": "Websites to check. Bare domains (allbirds.com) or full URLs (https://www.allbirds.com/pages/about). Duplicates are removed. We read the page you give (the homepage for a bare domain).",
+            "editor": "stringList",
+            "prefill": ["allbirds.com", "wordpress.org", "squarespace.com"]
+        },
+        "maxConcurrency": {
+            "title": "Max concurrency",
+            "type": "integer",
+            "description": "How many sites to check at the same time.",
+            "default": 10,
+            "minimum": 1,
+            "maximum": 50
+        },
+        "timeoutSecs": {
+            "title": "Timeout per site (seconds)",
+            "type": "integer",
+            "description": "Give up on a site after this many seconds. Timed-out sites are returned free with status \"error\".",
+            "default": 20,
+            "minimum": 5,
+            "maximum": 60
+        },
+        "includeAllTechnologies": {
+            "title": "Include full technologies list",
+            "type": "boolean",
+            "description": "Include every detected technology with categories, version and confidence. Turn off to get only the summary fields (platform, cms, hosting, cdn...).",
+            "default": true
+        }
+    },
+    "required": ["domains"]
+}

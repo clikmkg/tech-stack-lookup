@@ -1,0 +1,9 @@
+{
+  "upstream": "https://github.com/enthec/webappanalyzer",
+  "commit": "71132ddc2714cbff7e66d520f98767412e304d03",
+  "commitDate": "2026-11-10T10:47:52+01:00",
+  "license": "GPL-3.0",
+  "technologies": 7699,
+  "technologiesWithoutPlainHttpPatterns": 1059,
+  "builtAt": "2026-11-15T04:51:35.104Z"
+}

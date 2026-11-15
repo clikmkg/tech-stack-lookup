@@ -1,0 +1,3051 @@
+[
+ {
+  "domain": "jonesbarbq.com",
+  "input": "jonesbarbq.com",
+  "requestedUrl": "https://jonesbarbq.com/",
+  "finalUrl": null,
+  "status": "error",
+  "charged": false,
+  "httpStatus": null,
+  "errorCode": "ECONNRESET",
+  "errorMessage": "Client network socket disconnected before secure TLS connection was established",
+  "technologies": [],
+  "checkedAt": "2026-11-15T05:02:06.655Z",
+  "responseTimeMs": 28
+ },
+ {
+  "domain": "techcrunch.com",
+  "input": "techcrunch.com",
+  "requestedUrl": "https://techcrunch.com/",
+  "finalUrl": "https://techcrunch.com/",
+  "status": "ok",
+  "charged": true,
+  "httpStatus": 200,
+  "pageTitle": "TechCrunch | Startup and Technology News",
+  "platform": "WordPress",
+  "cms": "WordPress",
+  "ecommercePlatform": null,
+  "hosting": [
+   "WordPress VIP"
+  ],
+  "cdn": [
+   "Cloudflare"
+  ],
+  "webServer": null,
+  "frameworks": [],
+  "analytics": [],
+  "tagManagers": [
+   "Google Tag Manager"
+  ],
+  "advertising": [],
+  "marketingAutomation": [
+   "Sailthru"
+  ],
+  "paymentProcessors": [],
+  "liveChat": [],
+  "technologyCount": 17,
+  "technologies": [
+   {
+    "name": "WordPress",
+    "categories": [
+     "CMS",
+     "Blogs"
+    ],
+    "version": "6.9.11",
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://wordpress.org"
+   },
+   {
+    "name": "WordPress Block Editor",
+    "categories": [
+     "Page builders"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://wordpress.org/gutenberg/"
+   },
+   {
+    "name": "WordPress Site Editor",
+    "categories": [
+     "Page builders"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://wordpress.org/documentation/article/site-editor/"
+   },
+   {
+    "name": "MySQL",
+    "categories": [
+     "Databases"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "implied",
+    "website": "https://mysql.com"
+   },
+   {
+    "name": "PHP",
+    "categories": [
+     "Programming languages"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://php.net"
+   },
+   {
+    "name": "WordPress VIP",
+    "categories": [
+     "PaaS"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://wpvip.com"
+   },
+   {
+    "name": "Yoast SEO",
+    "categories": [
+     "SEO",
+     "WordPress plugins"
+    ],
+    "version": "25.1",
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://yoast.com/wordpress/plugins/seo/"
+   },
+   {
+    "name": "Yoast SEO Premium",
+    "categories": [
+     "SEO"
+    ],
+    "version": "25.1",
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://yoast.com/wordpress/plugins/seo/"
+   },
+   {
+    "name": "Cloudflare",
+    "categories": [
+     "CDN"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://www.cloudflare.com"
+   },
+   {
+    "name": "Google Tag Manager",
+    "categories": [
+     "Tag managers"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://www.google.com/tagmanager"
+   },
+   {
+    "name": "HSTS",
+    "categories": [
+     "Security"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://www.rfc-editor.org/rfc/rfc6797#section-6.1"
+   },
+   {
+    "name": "Priority Hints",
+    "categories": [
+     "Performance"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://wicg.github.io/priority-hints/"
+   },
+   {
+    "name": "reCAPTCHA",
+    "categories": [
+     "Security"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://www.google.com/recaptcha/"
+   },
+   {
+    "name": "Sailthru",
+    "categories": [
+     "Marketing automation",
+     "Email",
+     "Personalisation"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://www.sailthru.com"
+   },
+   {
+    "name": "HTTP/3",
+    "categories": [
+     "Miscellaneous"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://httpwg.org/"
+   },
+   {
+    "name": "Open Graph",
+    "categories": [
+     "Miscellaneous"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://ogp.me"
+   },
+   {
+    "name": "RSS",
+    "categories": [
+     "Miscellaneous"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://www.rssboard.org/rss-specification"
+   }
+  ],
+  "pageBytes": 423524,
+  "pageTruncated": false,
+  "checkedAt": "2026-11-15T05:02:06.713Z",
+  "responseTimeMs": 475
+ },
+ {
+  "domain": "whitehouse.gov",
+  "input": "whitehouse.gov",
+  "requestedUrl": "https://whitehouse.gov/",
+  "finalUrl": "https://www.whitehouse.gov/",
+  "status": "ok",
+  "charged": true,
+  "httpStatus": 200,
+  "pageTitle": "The White House",
+  "platform": "WordPress",
+  "cms": "WordPress",
+  "ecommercePlatform": null,
+  "hosting": [],
+  "cdn": [],
+  "webServer": "Nginx",
+  "frameworks": [],
+  "analytics": [],
+  "tagManagers": [
+   "Google Tag Manager"
+  ],
+  "advertising": [],
+  "marketingAutomation": [],
+  "paymentProcessors": [],
+  "liveChat": [],
+  "technologyCount": 12,
+  "technologies": [
+   {
+    "name": "WordPress",
+    "categories": [
+     "CMS",
+     "Blogs"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://wordpress.org"
+   },
+   {
+    "name": "WordPress Block Editor",
+    "categories": [
+     "Page builders"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://wordpress.org/gutenberg/"
+   },
+   {
+    "name": "WordPress Site Editor",
+    "categories": [
+     "Page builders"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://wordpress.org/documentation/article/site-editor/"
+   },
+   {
+    "name": "MySQL",
+    "categories": [
+     "Databases"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "implied",
+    "website": "https://mysql.com"
+   },
+   {
+    "name": "PHP",
+    "categories": [
+     "Programming languages"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "implied",
+    "website": "https://php.net"
+   },
+   {
+    "name": "Nginx",
+    "categories": [
+     "Web servers",
+     "Reverse proxies"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://nginx.org/en"
+   },
+   {
+    "name": "Google Font API",
+    "categories": [
+     "Font scripts"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://fonts.google.com/"
+   },
+   {
+    "name": "Google Tag Manager",
+    "categories": [
+     "Tag managers"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://www.google.com/tagmanager"
+   },
+   {
+    "name": "HSTS",
+    "categories": [
+     "Security"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://www.rfc-editor.org/rfc/rfc6797#section-6.1"
+   },
+   {
+    "name": "Priority Hints",
+    "categories": [
+     "Performance"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://wicg.github.io/priority-hints/"
+   },
+   {
+    "name": "Open Graph",
+    "categories": [
+     "Miscellaneous"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://ogp.me"
+   },
+   {
+    "name": "PWA",
+    "categories": [
+     "Miscellaneous"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://web.dev/progressive-web-apps/"
+   }
+  ],
+  "pageBytes": 293967,
+  "pageTruncated": false,
+  "checkedAt": "2026-11-15T05:02:07.129Z",
+  "responseTimeMs": 654
+ },
+ {
+  "domain": "colourpop.com",
+  "input": "colourpop.com",
+  "requestedUrl": "https://colourpop.com/",
+  "finalUrl": "https://colourpop.com/",
+  "status": "ok",
+  "charged": true,
+  "httpStatus": 200,
+  "pageTitle": "ColourPop\u00ae Cosmetics",
+  "platform": "Shopify",
+  "cms": null,
+  "ecommercePlatform": "Shopify",
+  "hosting": [
+   "Amazon Web Services"
+  ],
+  "cdn": [
+   "Cloudflare"
+  ],
+  "webServer": null,
+  "frameworks": [],
+  "analytics": [],
+  "tagManagers": [
+   "Google Tag Manager"
+  ],
+  "advertising": [],
+  "marketingAutomation": [
+   "Klaviyo",
+   "Tolstoy"
+  ],
+  "paymentProcessors": [
+   "Apple Pay",
+   "Klarna Checkout",
+   "PayPal",
+   "Venmo"
+  ],
+  "liveChat": [],
+  "technologyCount": 20,
+  "technologies": [
+   {
+    "name": "Cart Functionality",
+    "categories": [
+     "Ecommerce"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://en.wikipedia.org/wiki/Shopping_cart_software"
+   },
+   {
+    "name": "Shopify",
+    "categories": [
+     "Ecommerce"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://shopify.com"
+   },
+   {
+    "name": "Amazon Web Services",
+    "categories": [
+     "PaaS"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://aws.amazon.com/"
+   },
+   {
+    "name": "Apple Pay",
+    "categories": [
+     "Payment processors"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://www.apple.com/apple-pay"
+   },
+   {
+    "name": "Klarna Checkout",
+    "categories": [
+     "Payment processors",
+     "Buy now pay later"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://www.klarna.com/international/"
+   },
+   {
+    "name": "Okendo",
+    "categories": [
+     "Reviews",
+     "Shopify apps"
+    ],
+    "version": "0.107.1",
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://www.okendo.io"
+   },
+   {
+    "name": "PayPal",
+    "categories": [
+     "Payment processors"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://paypal.com"
+   },
+   {
+    "name": "Venmo",
+    "categories": [
+     "Payment processors"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://venmo.com"
+   },
+   {
+    "name": "Cloudflare",
+    "categories": [
+     "CDN"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://www.cloudflare.com"
+   },
+   {
+    "name": "DX",
+    "categories": [
+     "Shipping carriers"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://www.dxdelivery.com"
+   },
+   {
+    "name": "Google Tag Manager",
+    "categories": [
+     "Tag managers"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://www.google.com/tagmanager"
+   },
+   {
+    "name": "HSTS",
+    "categories": [
+     "Security"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://www.rfc-editor.org/rfc/rfc6797#section-6.1"
+   },
+   {
+    "name": "Klaviyo",
+    "categories": [
+     "Marketing automation"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://www.klaviyo.com/"
+   },
+   {
+    "name": "OneTrust",
+    "categories": [
+     "Cookie compliance"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://www.onetrust.com"
+   },
+   {
+    "name": "Priority Hints",
+    "categories": [
+     "Performance"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://wicg.github.io/priority-hints/"
+   },
+   {
+    "name": "Swiper",
+    "categories": [
+     "JavaScript libraries"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://swiperjs.com"
+   },
+   {
+    "name": "Tolstoy",
+    "categories": [
+     "Marketing automation"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://www.gotolstoy.com"
+   },
+   {
+    "name": "Yotpo Reviews",
+    "categories": [
+     "Reviews"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://www.yotpo.com/platform/reviews/"
+   },
+   {
+    "name": "HTTP/3",
+    "categories": [
+     "Miscellaneous"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://httpwg.org/"
+   },
+   {
+    "name": "Open Graph",
+    "categories": [
+     "Miscellaneous"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://ogp.me"
+   }
+  ],
+  "pageBytes": 1168200,
+  "pageTruncated": false,
+  "checkedAt": "2026-11-15T05:02:07.311Z",
+  "responseTimeMs": 1625
+ },
+ {
+  "domain": "wordpress.org",
+  "input": "wordpress.org",
+  "requestedUrl": "https://wordpress.org/",
+  "finalUrl": "https://wordpress.org/",
+  "status": "ok",
+  "charged": true,
+  "httpStatus": 200,
+  "pageTitle": "Blog Tool, Publishing Platform, and CMS | WordPress.org",
+  "platform": "WordPress",
+  "cms": "WordPress",
+  "ecommercePlatform": null,
+  "hosting": [],
+  "cdn": [],
+  "webServer": "Nginx",
+  "frameworks": [],
+  "analytics": [],
+  "tagManagers": [
+   "Google Tag Manager"
+  ],
+  "advertising": [],
+  "marketingAutomation": [],
+  "paymentProcessors": [],
+  "liveChat": [],
+  "technologyCount": 12,
+  "technologies": [
+   {
+    "name": "WordPress",
+    "categories": [
+     "CMS",
+     "Blogs"
+    ],
+    "version": "7.2",
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://wordpress.org"
+   },
+   {
+    "name": "WordPress Block Editor",
+    "categories": [
+     "Page builders"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://wordpress.org/gutenberg/"
+   },
+   {
+    "name": "WordPress Site Editor",
+    "categories": [
+     "Page builders"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://wordpress.org/documentation/article/site-editor/"
+   },
+   {
+    "name": "Gutenberg",
+    "categories": [
+     "WordPress plugins",
+     "Editors"
+    ],
+    "version": "24.4.1",
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://github.com/WordPress/gutenberg"
+   },
+   {
+    "name": "MySQL",
+    "categories": [
+     "Databases"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "implied",
+    "website": "https://mysql.com"
+   },
+   {
+    "name": "PHP",
+    "categories": [
+     "Programming languages"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://php.net"
+   },
+   {
+    "name": "Nginx",
+    "categories": [
+     "Web servers",
+     "Reverse proxies"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://nginx.org/en"
+   },
+   {
+    "name": "Google Tag Manager",
+    "categories": [
+     "Tag managers"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://www.google.com/tagmanager"
+   },
+   {
+    "name": "HSTS",
+    "categories": [
+     "Security"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://www.rfc-editor.org/rfc/rfc6797#section-6.1"
+   },
+   {
+    "name": "Priority Hints",
+    "categories": [
+     "Performance"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://wicg.github.io/priority-hints/"
+   },
+   {
+    "name": "Open Graph",
+    "categories": [
+     "Miscellaneous"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://ogp.me"
+   },
+   {
+    "name": "RSS",
+    "categories": [
+     "Miscellaneous"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://www.rssboard.org/rss-specification"
+   }
+  ],
+  "pageBytes": 178381,
+  "pageTruncated": false,
+  "checkedAt": "2026-11-15T05:02:08.273Z",
+  "responseTimeMs": 1734
+ },
+ {
+  "domain": "thesaltydonut.com",
+  "input": "thesaltydonut.com",
+  "requestedUrl": "https://thesaltydonut.com/",
+  "finalUrl": null,
+  "status": "error",
+  "charged": false,
+  "httpStatus": null,
+  "errorCode": "ECONNRESET",
+  "errorMessage": "Client network socket disconnected before secure TLS connection was established",
+  "technologies": [],
+  "checkedAt": "2026-11-15T05:02:08.359Z",
+  "responseTimeMs": 1067
+ },
+ {
+  "domain": "adamgrant.net",
+  "input": "adamgrant.net",
+  "requestedUrl": "https://adamgrant.net/",
+  "finalUrl": "https://adamgrant.net/",
+  "status": "ok",
+  "charged": true,
+  "httpStatus": 200,
+  "pageTitle": "Adam Grant \u2013 Books, Podcast, TED Talks, Newsletter, Articles",
+  "platform": "WordPress",
+  "cms": "WordPress",
+  "ecommercePlatform": null,
+  "hosting": [
+   "Flywheel"
+  ],
+  "cdn": [],
+  "webServer": null,
+  "frameworks": [],
+  "analytics": [],
+  "tagManagers": [],
+  "advertising": [],
+  "marketingAutomation": [],
+  "paymentProcessors": [],
+  "liveChat": [],
+  "technologyCount": 7,
+  "technologies": [
+   {
+    "name": "WordPress",
+    "categories": [
+     "CMS",
+     "Blogs"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://wordpress.org"
+   },
+   {
+    "name": "MySQL",
+    "categories": [
+     "Databases"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "implied",
+    "website": "https://mysql.com"
+   },
+   {
+    "name": "PHP",
+    "categories": [
+     "Programming languages"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "implied",
+    "website": "https://php.net"
+   },
+   {
+    "name": "Flywheel",
+    "categories": [
+     "PaaS",
+     "Hosting"
+    ],
+    "version": "5.1.0",
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://getflywheel.com"
+   },
+   {
+    "name": "The SEO Framework",
+    "categories": [
+     "SEO",
+     "WordPress plugins"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://theseoframework.com"
+   },
+   {
+    "name": "jQuery",
+    "categories": [
+     "JavaScript libraries"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://jquery.com"
+   },
+   {
+    "name": "Open Graph",
+    "categories": [
+     "Miscellaneous"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://ogp.me"
+   }
+  ],
+  "pageBytes": 39157,
+  "pageTruncated": false,
+  "checkedAt": "2026-11-15T05:02:08.362Z",
+  "responseTimeMs": 1264
+ },
+ {
+  "domain": "weddingsbylisanicole.com",
+  "input": "weddingsbylisanicole.com",
+  "requestedUrl": "https://weddingsbylisanicole.com/",
+  "finalUrl": "https://www.weddingsbylisanicole.com/",
+  "status": "ok",
+  "charged": true,
+  "httpStatus": 200,
+  "pageTitle": "Weddings by Lisa Nicole",
+  "platform": "Squarespace",
+  "cms": "Squarespace",
+  "ecommercePlatform": "Squarespace Commerce",
+  "hosting": [],
+  "cdn": [],
+  "webServer": null,
+  "frameworks": [],
+  "analytics": [],
+  "tagManagers": [],
+  "advertising": [],
+  "marketingAutomation": [],
+  "paymentProcessors": [],
+  "liveChat": [],
+  "technologyCount": 7,
+  "technologies": [
+   {
+    "name": "Squarespace",
+    "categories": [
+     "CMS"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://www.squarespace.com"
+   },
+   {
+    "name": "Squarespace Commerce",
+    "categories": [
+     "Ecommerce"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://www.squarespace.com/ecommerce-website"
+   },
+   {
+    "name": "Adobe Fonts",
+    "categories": [
+     "Font scripts"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://fonts.adobe.com"
+   },
+   {
+    "name": "HSTS",
+    "categories": [
+     "Security"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://www.rfc-editor.org/rfc/rfc6797#section-6.1"
+   },
+   {
+    "name": "Priority Hints",
+    "categories": [
+     "Performance"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://wicg.github.io/priority-hints/"
+   },
+   {
+    "name": "Typekit",
+    "categories": [
+     "Font scripts"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://typekit.com"
+   },
+   {
+    "name": "Open Graph",
+    "categories": [
+     "Miscellaneous"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://ogp.me"
+   }
+  ],
+  "pageBytes": 68590,
+  "pageTruncated": false,
+  "checkedAt": "2026-11-15T05:02:08.393Z",
+  "responseTimeMs": 1815
+ },
+ {
+  "domain": "gymshark.com",
+  "input": "gymshark.com",
+  "requestedUrl": "https://gymshark.com/",
+  "finalUrl": "https://us.checkout.gymshark.com/",
+  "status": "ok",
+  "charged": true,
+  "httpStatus": 200,
+  "pageTitle": null,
+  "platform": "Shopify",
+  "cms": null,
+  "ecommercePlatform": "Shopify",
+  "hosting": [
+   "Amazon Web Services"
+  ],
+  "cdn": [
+   "Cloudflare"
+  ],
+  "webServer": null,
+  "frameworks": [],
+  "analytics": [],
+  "tagManagers": [],
+  "advertising": [],
+  "marketingAutomation": [],
+  "paymentProcessors": [
+   "Apple Pay",
+   "PayPal"
+  ],
+  "liveChat": [],
+  "technologyCount": 8,
+  "technologies": [
+   {
+    "name": "Shopify",
+    "categories": [
+     "Ecommerce"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://shopify.com"
+   },
+   {
+    "name": "Amazon Web Services",
+    "categories": [
+     "PaaS"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://aws.amazon.com/"
+   },
+   {
+    "name": "Apple Pay",
+    "categories": [
+     "Payment processors"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://www.apple.com/apple-pay"
+   },
+   {
+    "name": "PayPal",
+    "categories": [
+     "Payment processors"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://paypal.com"
+   },
+   {
+    "name": "Cloudflare",
+    "categories": [
+     "CDN"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://www.cloudflare.com"
+   },
+   {
+    "name": "HSTS",
+    "categories": [
+     "Security"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://www.rfc-editor.org/rfc/rfc6797#section-6.1"
+   },
+   {
+    "name": "HTTP/3",
+    "categories": [
+     "Miscellaneous"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://httpwg.org/"
+   },
+   {
+    "name": "Open Graph",
+    "categories": [
+     "Miscellaneous"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://ogp.me"
+   }
+  ],
+  "pageBytes": 70616,
+  "pageTruncated": false,
+  "checkedAt": "2026-11-15T05:02:08.444Z",
+  "responseTimeMs": 1881
+ },
+ {
+  "domain": "squarespace.com",
+  "input": "squarespace.com",
+  "requestedUrl": "https://squarespace.com/",
+  "finalUrl": "https://www.squarespace.com/",
+  "status": "ok",
+  "charged": true,
+  "httpStatus": 200,
+  "pageTitle": "Website Builder \u2013 Easily Create Your Own Website \u2014 Squarespace",
+  "platform": "Squarespace",
+  "cms": "Squarespace",
+  "ecommercePlatform": "Squarespace Commerce",
+  "hosting": [],
+  "cdn": [],
+  "webServer": null,
+  "frameworks": [],
+  "analytics": [
+   "Ahrefs"
+  ],
+  "tagManagers": [
+   "Google Tag Manager"
+  ],
+  "advertising": [],
+  "marketingAutomation": [],
+  "paymentProcessors": [],
+  "liveChat": [],
+  "technologyCount": 7,
+  "technologies": [
+   {
+    "name": "Squarespace",
+    "categories": [
+     "CMS"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://www.squarespace.com"
+   },
+   {
+    "name": "Squarespace Commerce",
+    "categories": [
+     "Ecommerce"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://www.squarespace.com/ecommerce-website"
+   },
+   {
+    "name": "Ahrefs",
+    "categories": [
+     "SEO",
+     "Analytics"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://ahrefs.com"
+   },
+   {
+    "name": "Google Tag Manager",
+    "categories": [
+     "Tag managers"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://www.google.com/tagmanager"
+   },
+   {
+    "name": "HSTS",
+    "categories": [
+     "Security"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://www.rfc-editor.org/rfc/rfc6797#section-6.1"
+   },
+   {
+    "name": "Priority Hints",
+    "categories": [
+     "Performance"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://wicg.github.io/priority-hints/"
+   },
+   {
+    "name": "Open Graph",
+    "categories": [
+     "Miscellaneous"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://ogp.me"
+   }
+  ],
+  "pageBytes": 626397,
+  "pageTruncated": false,
+  "checkedAt": "2026-11-15T05:02:08.513Z",
+  "responseTimeMs": 2174
+ },
+ {
+  "domain": "brooklinen.com",
+  "input": "brooklinen.com",
+  "requestedUrl": "https://brooklinen.com/",
+  "finalUrl": "https://www.brooklinen.com/",
+  "status": "ok",
+  "charged": true,
+  "httpStatus": 200,
+  "pageTitle": "Luxury Bedding, Sheets & Comforters Online | Brooklinen",
+  "platform": "Shopify",
+  "cms": null,
+  "ecommercePlatform": "Shopify",
+  "hosting": [],
+  "cdn": [
+   "Cloudflare"
+  ],
+  "webServer": null,
+  "frameworks": [],
+  "analytics": [
+   "Google Analytics"
+  ],
+  "tagManagers": [
+   "Google Tag Manager",
+   "Yottaa"
+  ],
+  "advertising": [],
+  "marketingAutomation": [],
+  "paymentProcessors": [
+   "Apple Pay",
+   "PayPal",
+   "Venmo"
+  ],
+  "liveChat": [],
+  "technologyCount": 17,
+  "technologies": [
+   {
+    "name": "Shopify",
+    "categories": [
+     "Ecommerce"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://shopify.com"
+   },
+   {
+    "name": "Sentry",
+    "categories": [
+     "Issue trackers"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://sentry.io/"
+   },
+   {
+    "name": "Google Sign-in",
+    "categories": [
+     "Authentication"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://developers.google.com/identity/sign-in/web"
+   },
+   {
+    "name": "Apple Pay",
+    "categories": [
+     "Payment processors"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://www.apple.com/apple-pay"
+   },
+   {
+    "name": "PayPal",
+    "categories": [
+     "Payment processors"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://paypal.com"
+   },
+   {
+    "name": "Venmo",
+    "categories": [
+     "Payment processors"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://venmo.com"
+   },
+   {
+    "name": "Cloudflare",
+    "categories": [
+     "CDN"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://www.cloudflare.com"
+   },
+   {
+    "name": "Dynamic Yield",
+    "categories": [
+     "A/B Testing",
+     "Personalisation"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://www.dynamicyield.com"
+   },
+   {
+    "name": "Google Analytics",
+    "categories": [
+     "Analytics"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://google.com/analytics"
+   },
+   {
+    "name": "Google Tag Manager",
+    "categories": [
+     "Tag managers"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://www.google.com/tagmanager"
+   },
+   {
+    "name": "HSTS",
+    "categories": [
+     "Security"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://www.rfc-editor.org/rfc/rfc6797#section-6.1"
+   },
+   {
+    "name": "OneTrust",
+    "categories": [
+     "Cookie compliance"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://www.onetrust.com"
+   },
+   {
+    "name": "Priority Hints",
+    "categories": [
+     "Performance"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://wicg.github.io/priority-hints/"
+   },
+   {
+    "name": "Yotpo Reviews",
+    "categories": [
+     "Reviews"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://www.yotpo.com/platform/reviews/"
+   },
+   {
+    "name": "Yottaa",
+    "categories": [
+     "Tag managers",
+     "A/B Testing",
+     "Performance"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://www.yottaa.com"
+   },
+   {
+    "name": "HTTP/3",
+    "categories": [
+     "Miscellaneous"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://httpwg.org/"
+   },
+   {
+    "name": "Open Graph",
+    "categories": [
+     "Miscellaneous"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://ogp.me"
+   }
+  ],
+  "pageBytes": 1720992,
+  "pageTruncated": false,
+  "checkedAt": "2026-11-15T05:02:08.818Z",
+  "responseTimeMs": 2811
+ },
+ {
+  "domain": "allbirds.com",
+  "input": "allbirds.com",
+  "requestedUrl": "https://allbirds.com/",
+  "finalUrl": "https://www.allbirds.com/",
+  "status": "ok",
+  "charged": true,
+  "httpStatus": 200,
+  "pageTitle": "Allbirds: Comfortable, Sustainable Shoes & Apparel",
+  "platform": "Shopify",
+  "cms": null,
+  "ecommercePlatform": "Shopify",
+  "hosting": [],
+  "cdn": [
+   "Cloudflare"
+  ],
+  "webServer": null,
+  "frameworks": [],
+  "analytics": [],
+  "tagManagers": [
+   "Google Tag Manager"
+  ],
+  "advertising": [],
+  "marketingAutomation": [],
+  "paymentProcessors": [
+   "Apple Pay",
+   "PayPal"
+  ],
+  "liveChat": [],
+  "technologyCount": 10,
+  "technologies": [
+   {
+    "name": "Shopify",
+    "categories": [
+     "Ecommerce"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://shopify.com"
+   },
+   {
+    "name": "Apple Pay",
+    "categories": [
+     "Payment processors"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://www.apple.com/apple-pay"
+   },
+   {
+    "name": "PayPal",
+    "categories": [
+     "Payment processors"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://paypal.com"
+   },
+   {
+    "name": "Cloudflare",
+    "categories": [
+     "CDN"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://www.cloudflare.com"
+   },
+   {
+    "name": "Google Tag Manager",
+    "categories": [
+     "Tag managers"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://www.google.com/tagmanager"
+   },
+   {
+    "name": "HSTS",
+    "categories": [
+     "Security"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://www.rfc-editor.org/rfc/rfc6797#section-6.1"
+   },
+   {
+    "name": "Priority Hints",
+    "categories": [
+     "Performance"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://wicg.github.io/priority-hints/"
+   },
+   {
+    "name": "Swiper",
+    "categories": [
+     "JavaScript libraries"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://swiperjs.com"
+   },
+   {
+    "name": "HTTP/3",
+    "categories": [
+     "Miscellaneous"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://httpwg.org/"
+   },
+   {
+    "name": "Open Graph",
+    "categories": [
+     "Miscellaneous"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://ogp.me"
+   }
+  ],
+  "pageBytes": 714830,
+  "pageTruncated": false,
+  "checkedAt": "2026-11-15T05:02:09.450Z",
+  "responseTimeMs": 3228
+ },
+ {
+  "domain": "perpetualkid.com",
+  "input": "perpetualkid.com",
+  "requestedUrl": "https://perpetualkid.com/",
+  "finalUrl": null,
+  "status": "error",
+  "charged": false,
+  "httpStatus": null,
+  "errorCode": "ERR_SSL_TLSV1_ALERT_INTERNAL_ERROR",
+  "errorMessage": "C0B2D1ABE27F0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:918:SSL alert number 80\n",
+  "technologies": [],
+  "checkedAt": "2026-11-15T05:02:09.843Z",
+  "responseTimeMs": 1033
+ },
+ {
+  "domain": "webflow.com",
+  "input": "webflow.com",
+  "requestedUrl": "https://webflow.com/",
+  "finalUrl": "https://webflow.com/",
+  "status": "ok",
+  "charged": true,
+  "httpStatus": 200,
+  "pageTitle": "Webflow: The agentic web platform for modern businesses",
+  "platform": "Webflow",
+  "cms": "Webflow",
+  "ecommercePlatform": null,
+  "hosting": [
+   "Amazon Web Services"
+  ],
+  "cdn": [
+   "Amazon S3",
+   "cdnjs",
+   "Cloudflare",
+   "Google Hosted Libraries",
+   "jsDelivr"
+  ],
+  "webServer": null,
+  "frameworks": [],
+  "analytics": [],
+  "tagManagers": [
+   "Google Tag Manager"
+  ],
+  "advertising": [],
+  "marketingAutomation": [],
+  "paymentProcessors": [],
+  "liveChat": [],
+  "technologyCount": 17,
+  "technologies": [
+   {
+    "name": "Webflow",
+    "categories": [
+     "Page builders"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://webflow.com"
+   },
+   {
+    "name": "Three.js",
+    "categories": [
+     "JavaScript graphics"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://threejs.org"
+   },
+   {
+    "name": "Amazon Web Services",
+    "categories": [
+     "PaaS"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "implied",
+    "website": "https://aws.amazon.com/"
+   },
+   {
+    "name": "Amazon S3",
+    "categories": [
+     "CDN"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://aws.amazon.com/s3/"
+   },
+   {
+    "name": "cdnjs",
+    "categories": [
+     "CDN"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://cdnjs.com"
+   },
+   {
+    "name": "Cloudflare",
+    "categories": [
+     "CDN"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://www.cloudflare.com"
+   },
+   {
+    "name": "Google Font API",
+    "categories": [
+     "Font scripts"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://fonts.google.com/"
+   },
+   {
+    "name": "Google Hosted Libraries",
+    "categories": [
+     "CDN"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://developers.google.com/speed/libraries"
+   },
+   {
+    "name": "Google Tag Manager",
+    "categories": [
+     "Tag managers"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://www.google.com/tagmanager"
+   },
+   {
+    "name": "HSTS",
+    "categories": [
+     "Security"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://www.rfc-editor.org/rfc/rfc6797#section-6.1"
+   },
+   {
+    "name": "jQuery",
+    "categories": [
+     "JavaScript libraries"
+    ],
+    "version": "3.5.1",
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://jquery.com"
+   },
+   {
+    "name": "jsDelivr",
+    "categories": [
+     "CDN"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://www.jsdelivr.com/"
+   },
+   {
+    "name": "Priority Hints",
+    "categories": [
+     "Performance"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://wicg.github.io/priority-hints/"
+   },
+   {
+    "name": "reCAPTCHA",
+    "categories": [
+     "Security"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://www.google.com/recaptcha/"
+   },
+   {
+    "name": "Swiper",
+    "categories": [
+     "JavaScript libraries"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://swiperjs.com"
+   },
+   {
+    "name": "HTTP/3",
+    "categories": [
+     "Miscellaneous"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://httpwg.org/"
+   },
+   {
+    "name": "Open Graph",
+    "categories": [
+     "Miscellaneous"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://ogp.me"
+   }
+  ],
+  "pageBytes": 553441,
+  "pageTruncated": false,
+  "checkedAt": "2026-11-15T05:02:09.851Z",
+  "responseTimeMs": 1753
+ },
+ {
+  "domain": "wix.com",
+  "input": "wix.com",
+  "requestedUrl": "https://wix.com/",
+  "finalUrl": "https://www.wix.com/",
+  "status": "ok",
+  "charged": true,
+  "httpStatus": 200,
+  "pageTitle": "Wix.com - The platform trusted by millions of businesses",
+  "platform": "Wix",
+  "cms": "Wix",
+  "ecommercePlatform": "Wix eCommerce",
+  "hosting": [
+   "Google Cloud"
+  ],
+  "cdn": [
+   "Google Cloud CDN"
+  ],
+  "webServer": null,
+  "frameworks": [
+   "React"
+  ],
+  "analytics": [],
+  "tagManagers": [],
+  "advertising": [],
+  "marketingAutomation": [],
+  "paymentProcessors": [],
+  "liveChat": [],
+  "technologyCount": 14,
+  "technologies": [
+   {
+    "name": "WebsiteBuilder",
+    "categories": [
+     "Page builders"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://www.websitebuilder.com"
+   },
+   {
+    "name": "Wix",
+    "categories": [
+     "CMS",
+     "Blogs"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://www.wix.com"
+   },
+   {
+    "name": "Wix eCommerce",
+    "categories": [
+     "Ecommerce"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://www.wix.com/freesitebuilder/tae-store"
+   },
+   {
+    "name": "Sentry",
+    "categories": [
+     "Issue trackers"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://sentry.io/"
+   },
+   {
+    "name": "Google Sign-in",
+    "categories": [
+     "Authentication"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://developers.google.com/identity/sign-in/web"
+   },
+   {
+    "name": "Google Cloud",
+    "categories": [
+     "IaaS"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "implied",
+    "website": "https://cloud.google.com"
+   },
+   {
+    "name": "React",
+    "categories": [
+     "JavaScript frameworks"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "implied",
+    "website": "https://reactjs.org"
+   },
+   {
+    "name": "Google Cloud CDN",
+    "categories": [
+     "CDN"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://cloud.google.com/cdn"
+   },
+   {
+    "name": "HSTS",
+    "categories": [
+     "Security"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://www.rfc-editor.org/rfc/rfc6797#section-6.1"
+   },
+   {
+    "name": "Lodash",
+    "categories": [
+     "JavaScript libraries"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://www.lodash.com"
+   },
+   {
+    "name": "Priority Hints",
+    "categories": [
+     "Performance"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://wicg.github.io/priority-hints/"
+   },
+   {
+    "name": "Sirvoy",
+    "categories": [
+     "Appointment scheduling"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://sirvoy.com"
+   },
+   {
+    "name": "HTTP/3",
+    "categories": [
+     "Miscellaneous"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://httpwg.org/"
+   },
+   {
+    "name": "Open Graph",
+    "categories": [
+     "Miscellaneous"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://ogp.me"
+   }
+  ],
+  "pageBytes": 2593970,
+  "pageTruncated": false,
+  "checkedAt": "2026-11-15T05:02:10.162Z",
+  "responseTimeMs": 4536
+ },
+ {
+  "domain": "solostove.com",
+  "input": "solostove.com",
+  "requestedUrl": "https://solostove.com/",
+  "finalUrl": "https://www.solostove.com/",
+  "status": "blocked",
+  "charged": false,
+  "httpStatus": 403,
+  "blockedBy": "Cloudflare",
+  "technologies": [],
+  "checkedAt": "2026-11-15T05:02:11.243Z",
+  "responseTimeMs": 2735
+ },
+ {
+  "domain": "notarize.com",
+  "input": "notarize.com",
+  "requestedUrl": "https://notarize.com/",
+  "finalUrl": "https://www.notarize.com/",
+  "status": "ok",
+  "charged": true,
+  "httpStatus": 200,
+  "pageTitle": "Notary Services | Quick & Secure Notarization | Notarize",
+  "platform": "Webflow",
+  "cms": "Webflow",
+  "ecommercePlatform": null,
+  "hosting": [],
+  "cdn": [
+   "Cloudflare",
+   "jsDelivr",
+   "Unpkg"
+  ],
+  "webServer": null,
+  "frameworks": [],
+  "analytics": [],
+  "tagManagers": [],
+  "advertising": [],
+  "marketingAutomation": [
+   "HubSpot"
+  ],
+  "paymentProcessors": [],
+  "liveChat": [],
+  "technologyCount": 13,
+  "technologies": [
+   {
+    "name": "Webflow",
+    "categories": [
+     "Page builders"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://webflow.com"
+   },
+   {
+    "name": "Cloudflare",
+    "categories": [
+     "CDN"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://www.cloudflare.com"
+   },
+   {
+    "name": "DataGrail",
+    "categories": [
+     "Security"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://www.datagrail.io"
+   },
+   {
+    "name": "Embedly",
+    "categories": [
+     "Widgets"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://embed.ly"
+   },
+   {
+    "name": "HSTS",
+    "categories": [
+     "Security"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://www.rfc-editor.org/rfc/rfc6797#section-6.1"
+   },
+   {
+    "name": "HubSpot",
+    "categories": [
+     "Marketing automation"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://www.hubspot.com"
+   },
+   {
+    "name": "jQuery",
+    "categories": [
+     "JavaScript libraries"
+    ],
+    "version": "3.5.1",
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://jquery.com"
+   },
+   {
+    "name": "jsDelivr",
+    "categories": [
+     "CDN"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://www.jsdelivr.com/"
+   },
+   {
+    "name": "Optibase",
+    "categories": [
+     "A/B Testing"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://www.optibase.io"
+   },
+   {
+    "name": "Trustpilot",
+    "categories": [
+     "Reviews"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://business.trustpilot.com"
+   },
+   {
+    "name": "Unpkg",
+    "categories": [
+     "CDN"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://unpkg.com"
+   },
+   {
+    "name": "HTTP/3",
+    "categories": [
+     "Miscellaneous"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://httpwg.org/"
+   },
+   {
+    "name": "Open Graph",
+    "categories": [
+     "Miscellaneous"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://ogp.me"
+   }
+  ],
+  "pageBytes": 236106,
+  "pageTruncated": false,
+  "checkedAt": "2026-11-15T05:02:11.265Z",
+  "responseTimeMs": 2871
+ },
+ {
+  "domain": "this-domain-does-not-exist-zq81.com",
+  "input": "this-domain-does-not-exist-zq81.com",
+  "requestedUrl": "https://this-domain-does-not-exist-zq81.com/",
+  "finalUrl": null,
+  "status": "error",
+  "charged": false,
+  "httpStatus": null,
+  "errorCode": "ECONNRESET",
+  "errorMessage": "Client network socket disconnected before secure TLS connection was established",
+  "technologies": [],
+  "checkedAt": "2026-11-15T05:02:11.383Z",
+  "responseTimeMs": 120
+ },
+ {
+  "domain": "jasper.ai",
+  "input": "jasper.ai",
+  "requestedUrl": "https://jasper.ai/",
+  "finalUrl": "https://www.jasper.ai/",
+  "status": "ok",
+  "charged": true,
+  "httpStatus": 200,
+  "pageTitle": "Put AI agents to work for marketing | Jasper",
+  "platform": "Webflow",
+  "cms": "Webflow",
+  "ecommercePlatform": null,
+  "hosting": [],
+  "cdn": [
+   "Cloudflare",
+   "jsDelivr"
+  ],
+  "webServer": null,
+  "frameworks": [],
+  "analytics": [
+   "Ahrefs"
+  ],
+  "tagManagers": [
+   "Google Tag Manager"
+  ],
+  "advertising": [],
+  "marketingAutomation": [],
+  "paymentProcessors": [],
+  "liveChat": [],
+  "technologyCount": 9,
+  "technologies": [
+   {
+    "name": "Webflow",
+    "categories": [
+     "Page builders"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://webflow.com"
+   },
+   {
+    "name": "Ahrefs",
+    "categories": [
+     "SEO",
+     "Analytics"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://ahrefs.com"
+   },
+   {
+    "name": "Cloudflare",
+    "categories": [
+     "CDN"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://www.cloudflare.com"
+   },
+   {
+    "name": "Google Tag Manager",
+    "categories": [
+     "Tag managers"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://www.google.com/tagmanager"
+   },
+   {
+    "name": "HSTS",
+    "categories": [
+     "Security"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://www.rfc-editor.org/rfc/rfc6797#section-6.1"
+   },
+   {
+    "name": "jQuery",
+    "categories": [
+     "JavaScript libraries"
+    ],
+    "version": "3.5.1",
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://jquery.com"
+   },
+   {
+    "name": "jsDelivr",
+    "categories": [
+     "CDN"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://www.jsdelivr.com/"
+   },
+   {
+    "name": "HTTP/3",
+    "categories": [
+     "Miscellaneous"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://httpwg.org/"
+   },
+   {
+    "name": "Open Graph",
+    "categories": [
+     "Miscellaneous"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://ogp.me"
+   }
+  ],
+  "pageBytes": 421421,
+  "pageTruncated": false,
+  "checkedAt": "2026-11-15T05:02:11.386Z",
+  "responseTimeMs": 3137
+ },
+ {
+  "domain": "kingarthurbaking.com",
+  "input": "kingarthurbaking.com",
+  "requestedUrl": "https://kingarthurbaking.com/",
+  "finalUrl": "https://www.kingarthurbaking.com/",
+  "status": "ok",
+  "charged": true,
+  "httpStatus": 200,
+  "pageTitle": "King Arthur Baking - Try it Once, Trust it Always",
+  "platform": "Drupal",
+  "cms": "Drupal",
+  "ecommercePlatform": null,
+  "hosting": [
+   "Pantheon"
+  ],
+  "cdn": [
+   "Fastly"
+  ],
+  "webServer": "Nginx",
+  "frameworks": [
+   "Astro"
+  ],
+  "analytics": [],
+  "tagManagers": [
+   "Google Tag Manager",
+   "Yottaa"
+  ],
+  "advertising": [],
+  "marketingAutomation": [],
+  "paymentProcessors": [],
+  "liveChat": [],
+  "technologyCount": 22,
+  "technologies": [
+   {
+    "name": "Astro",
+    "categories": [
+     "Static site generator",
+     "JavaScript frameworks"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://astro.build"
+   },
+   {
+    "name": "Cart Functionality",
+    "categories": [
+     "Ecommerce"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://en.wikipedia.org/wiki/Shopping_cart_software"
+   },
+   {
+    "name": "Drupal",
+    "categories": [
+     "CMS"
+    ],
+    "version": "11",
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://www.drupal.org/"
+   },
+   {
+    "name": "MariaDB",
+    "categories": [
+     "Databases"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "implied",
+    "website": "https://mariadb.org"
+   },
+   {
+    "name": "PHP",
+    "categories": [
+     "Programming languages"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "implied",
+    "website": "https://php.net"
+   },
+   {
+    "name": "Nginx",
+    "categories": [
+     "Web servers",
+     "Reverse proxies"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://nginx.org/en"
+   },
+   {
+    "name": "Varnish",
+    "categories": [
+     "Caching"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://www.varnish-cache.org"
+   },
+   {
+    "name": "YouTube",
+    "categories": [
+     "Video players"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://www.youtube.com"
+   },
+   {
+    "name": "Pantheon",
+    "categories": [
+     "PaaS"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://pantheon.io/"
+   },
+   {
+    "name": "Adobe Fonts",
+    "categories": [
+     "Font scripts"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://fonts.adobe.com"
+   },
+   {
+    "name": "Fastly",
+    "categories": [
+     "CDN"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "implied",
+    "website": "https://www.fastly.com"
+   },
+   {
+    "name": "Google Tag Manager",
+    "categories": [
+     "Tag managers"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://www.google.com/tagmanager"
+   },
+   {
+    "name": "HSTS",
+    "categories": [
+     "Security"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://www.rfc-editor.org/rfc/rfc6797#section-6.1"
+   },
+   {
+    "name": "jQuery",
+    "categories": [
+     "JavaScript libraries"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://jquery.com"
+   },
+   {
+    "name": "Osano",
+    "categories": [
+     "Cookie compliance"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://www.osano.com"
+   },
+   {
+    "name": "Priority Hints",
+    "categories": [
+     "Performance"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://wicg.github.io/priority-hints/"
+   },
+   {
+    "name": "Swiper",
+    "categories": [
+     "JavaScript libraries"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://swiperjs.com"
+   },
+   {
+    "name": "Typekit",
+    "categories": [
+     "Font scripts"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://typekit.com"
+   },
+   {
+    "name": "Yottaa",
+    "categories": [
+     "Tag managers",
+     "A/B Testing",
+     "Performance"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://www.yottaa.com"
+   },
+   {
+    "name": "HTTP/3",
+    "categories": [
+     "Miscellaneous"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://httpwg.org/"
+   },
+   {
+    "name": "Open Graph",
+    "categories": [
+     "Miscellaneous"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://ogp.me"
+   },
+   {
+    "name": "RSS",
+    "categories": [
+     "Miscellaneous"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://www.rssboard.org/rss-specification"
+   }
+  ],
+  "pageBytes": 359627,
+  "pageTruncated": false,
+  "checkedAt": "2026-11-15T05:02:11.647Z",
+  "responseTimeMs": 3070
+ },
+ {
+  "domain": "nytimes.com",
+  "input": "nytimes.com",
+  "requestedUrl": "https://nytimes.com/",
+  "finalUrl": "https://www.nytimes.com/",
+  "status": "blocked",
+  "charged": false,
+  "httpStatus": 403,
+  "blockedBy": "DataDome",
+  "technologies": [],
+  "checkedAt": "2026-11-15T05:02:12.067Z",
+  "responseTimeMs": 806
+ },
+ {
+  "domain": "amazon.com",
+  "input": "amazon.com",
+  "requestedUrl": "https://amazon.com/",
+  "finalUrl": "https://www.amazon.com/",
+  "status": "blocked",
+  "charged": false,
+  "httpStatus": 202,
+  "blockedBy": "AWS WAF",
+  "technologies": [],
+  "checkedAt": "2026-11-15T05:02:12.123Z",
+  "responseTimeMs": 2279
+ },
+ {
+  "domain": "apple.com",
+  "input": "apple.com",
+  "requestedUrl": "https://apple.com/",
+  "finalUrl": "https://www.apple.com/",
+  "status": "ok",
+  "charged": true,
+  "httpStatus": 200,
+  "pageTitle": "Apple",
+  "platform": null,
+  "cms": null,
+  "ecommercePlatform": null,
+  "hosting": [],
+  "cdn": [],
+  "webServer": null,
+  "frameworks": [],
+  "analytics": [],
+  "tagManagers": [],
+  "advertising": [],
+  "marketingAutomation": [],
+  "paymentProcessors": [],
+  "liveChat": [],
+  "technologyCount": 4,
+  "technologies": [
+   {
+    "name": "Cart Functionality",
+    "categories": [
+     "Ecommerce"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://en.wikipedia.org/wiki/Shopping_cart_software"
+   },
+   {
+    "name": "Apple MapKit JS",
+    "categories": [
+     "Maps"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://developer.apple.com/maps/web/"
+   },
+   {
+    "name": "HSTS",
+    "categories": [
+     "Security"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://www.rfc-editor.org/rfc/rfc6797#section-6.1"
+   },
+   {
+    "name": "Open Graph",
+    "categories": [
+     "Miscellaneous"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://ogp.me"
+   }
+  ],
+  "pageBytes": 260629,
+  "pageTruncated": false,
+  "checkedAt": "2026-11-15T05:02:12.304Z",
+  "responseTimeMs": 2574
+ },
+ {
+  "domain": "nike.com",
+  "input": "nike.com",
+  "requestedUrl": "https://nike.com/",
+  "finalUrl": "https://www.nike.com/",
+  "status": "ok",
+  "charged": true,
+  "httpStatus": 200,
+  "pageTitle": "Nike. Just Do It. Nike.com",
+  "platform": null,
+  "cms": null,
+  "ecommercePlatform": null,
+  "hosting": [],
+  "cdn": [
+   "Akamai",
+   "cdnjs",
+   "Cloudflare"
+  ],
+  "webServer": "Next.js",
+  "frameworks": [
+   "Next.js",
+   "Emotion",
+   "React"
+  ],
+  "analytics": [
+   "Zipkin"
+  ],
+  "tagManagers": [],
+  "advertising": [],
+  "marketingAutomation": [],
+  "paymentProcessors": [],
+  "liveChat": [],
+  "technologyCount": 13,
+  "technologies": [
+   {
+    "name": "Cart Functionality",
+    "categories": [
+     "Ecommerce"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://en.wikipedia.org/wiki/Shopping_cart_software"
+   },
+   {
+    "name": "Next.js",
+    "categories": [
+     "JavaScript frameworks",
+     "Web frameworks",
+     "Web servers",
+     "Static site generator"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://nextjs.org"
+   },
+   {
+    "name": "Emotion",
+    "categories": [
+     "JavaScript frameworks",
+     "Development"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://emotion.sh"
+   },
+   {
+    "name": "React",
+    "categories": [
+     "JavaScript frameworks"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "implied",
+    "website": "https://reactjs.org"
+   },
+   {
+    "name": "Akamai",
+    "categories": [
+     "CDN"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://akamai.com"
+   },
+   {
+    "name": "Akamai Bot Manager",
+    "categories": [
+     "Security"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://www.akamai.com/us/en/products/security/bot-manager.jsp"
+   },
+   {
+    "name": "cdnjs",
+    "categories": [
+     "CDN"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://cdnjs.com"
+   },
+   {
+    "name": "Cloudflare",
+    "categories": [
+     "CDN"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "implied",
+    "website": "https://www.cloudflare.com"
+   },
+   {
+    "name": "HSTS",
+    "categories": [
+     "Security"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://www.rfc-editor.org/rfc/rfc6797#section-6.1"
+   },
+   {
+    "name": "New Relic",
+    "categories": [
+     "RUM"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://newrelic.com"
+   },
+   {
+    "name": "Zipkin",
+    "categories": [
+     "Analytics"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://zipkin.io/"
+   },
+   {
+    "name": "Open Graph",
+    "categories": [
+     "Miscellaneous"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://ogp.me"
+   },
+   {
+    "name": "Webpack",
+    "categories": [
+     "Miscellaneous"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "implied",
+    "website": "https://webpack.js.org/"
+   }
+  ],
+  "pageBytes": 1028506,
+  "pageTruncated": false,
+  "checkedAt": "2026-11-15T05:02:12.788Z",
+  "responseTimeMs": 4518
+ },
+ {
+  "domain": "walmart.com",
+  "input": "walmart.com",
+  "requestedUrl": "https://walmart.com/",
+  "finalUrl": "https://www.walmart.com/",
+  "status": "ok",
+  "charged": true,
+  "httpStatus": 200,
+  "pageTitle": "Walmart | Save Money. Live better.",
+  "platform": null,
+  "cms": null,
+  "ecommercePlatform": null,
+  "hosting": [],
+  "cdn": [
+   "Akamai"
+  ],
+  "webServer": null,
+  "frameworks": [],
+  "analytics": [],
+  "tagManagers": [],
+  "advertising": [],
+  "marketingAutomation": [],
+  "paymentProcessors": [],
+  "liveChat": [],
+  "technologyCount": 7,
+  "technologies": [
+   {
+    "name": "Cart Functionality",
+    "categories": [
+     "Ecommerce"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://en.wikipedia.org/wiki/Shopping_cart_software"
+   },
+   {
+    "name": "Envoy",
+    "categories": [
+     "Reverse proxies"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://www.envoyproxy.io/"
+   },
+   {
+    "name": "Akamai",
+    "categories": [
+     "CDN"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://akamai.com"
+   },
+   {
+    "name": "Akamai Bot Manager",
+    "categories": [
+     "Security"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://www.akamai.com/us/en/products/security/bot-manager.jsp"
+   },
+   {
+    "name": "HSTS",
+    "categories": [
+     "Security"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://www.rfc-editor.org/rfc/rfc6797#section-6.1"
+   },
+   {
+    "name": "Priority Hints",
+    "categories": [
+     "Performance"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://wicg.github.io/priority-hints/"
+   },
+   {
+    "name": "Open Graph",
+    "categories": [
+     "Miscellaneous"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://ogp.me"
+   }
+  ],
+  "pageBytes": 353832,
+  "pageTruncated": false,
+  "checkedAt": "2026-11-15T05:02:13.341Z",
+  "responseTimeMs": 3809
+ },
+ {
+  "domain": "target.com",
+  "input": "target.com",
+  "requestedUrl": "https://target.com/",
+  "finalUrl": "https://www.target.com/",
+  "status": "ok",
+  "charged": true,
+  "httpStatus": 200,
+  "pageTitle": "Target : Expect More. Pay Less.",
+  "platform": null,
+  "cms": null,
+  "ecommercePlatform": null,
+  "hosting": [],
+  "cdn": [],
+  "webServer": null,
+  "frameworks": [
+   "styled-components",
+   "React"
+  ],
+  "analytics": [
+   "DoubleVerify"
+  ],
+  "tagManagers": [],
+  "advertising": [
+   "DoubleVerify"
+  ],
+  "marketingAutomation": [],
+  "paymentProcessors": [],
+  "liveChat": [],
+  "technologyCount": 8,
+  "technologies": [
+   {
+    "name": "Cart Functionality",
+    "categories": [
+     "Ecommerce"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://en.wikipedia.org/wiki/Shopping_cart_software"
+   },
+   {
+    "name": "styled-components",
+    "categories": [
+     "JavaScript frameworks",
+     "Development"
+    ],
+    "version": "6.1.14",
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://styled-components.com"
+   },
+   {
+    "name": "React",
+    "categories": [
+     "JavaScript frameworks"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "implied",
+    "website": "https://reactjs.org"
+   },
+   {
+    "name": "Adobe Dynamic Media Classic",
+    "categories": [
+     "Digital asset management"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://business.adobe.com/uk/products/experience-manager/scene7-login.html"
+   },
+   {
+    "name": "DoubleVerify",
+    "categories": [
+     "Advertising",
+     "Analytics"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://doubleverify.com"
+   },
+   {
+    "name": "HSTS",
+    "categories": [
+     "Security"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://www.rfc-editor.org/rfc/rfc6797#section-6.1"
+   },
+   {
+    "name": "PerimeterX",
+    "categories": [
+     "Security"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://www.perimeterx.com"
+   },
+   {
+    "name": "Open Graph",
+    "categories": [
+     "Miscellaneous"
+    ],
+    "version": null,
+    "confidence": 100,
+    "detectedVia": "pattern",
+    "website": "https://ogp.me"
+   }
+  ],
+  "pageBytes": 491419,
+  "pageTruncated": false,
+  "checkedAt": "2026-11-15T05:02:13.670Z",
+  "responseTimeMs": 3811
+ }
+]

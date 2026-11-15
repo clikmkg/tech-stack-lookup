@@ -1,0 +1,22 @@
+{
+    "actorSpecification": 1,
+    "name": "website-tech-stack-lookup",
+    "title": "Website Tech Stack Lookup: CMS, Ecommerce Platform & Hosting",
+    "description": "Find out what any website is built on. Give a list of domains and get each site's ecommerce platform (Shopify, BigCommerce, WooCommerce...), CMS or site builder (WordPress, Wix, Squarespace, Webflow...), hosting, CDN and frameworks. Plain HTTP, no browser. Pay only for sites we actually read.",
+    "version": "0.1",
+    "buildTag": "latest",
+    "meta": {
+        "templateId": "js-start",
+        "generatedBy": "Grok Bot"
+    },
+    "input": "./input_schema.json",
+    "storages": {
+        "dataset": "./dataset_schema.json"
+    },
+    "dockerfile": "./Dockerfile",
+    "readme": "../README.md",
+    "minMemoryMbytes": 512,
+    "maxMemoryMbytes": 4096,
+    "defaultMemoryMbytes": 1024,
+    "output": "./output_schema.json"
+}

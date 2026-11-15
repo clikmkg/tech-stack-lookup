@@ -1,0 +1,48 @@
+{
+    "actorSpecification": 1,
+    "fields": {
+        "type": "object",
+        "properties": {
+            "domain": { "type": "string" },
+            "finalUrl": { "type": ["string", "null"] },
+            "status": { "type": "string", "enum": ["ok", "blocked", "error"] },
+            "charged": { "type": "boolean" },
+            "platform": { "type": ["string", "null"] },
+            "cms": { "type": ["string", "null"] },
+            "ecommercePlatform": { "type": ["string", "null"] },
+            "hosting": { "type": "array" },
+            "cdn": { "type": "array" },
+            "technologies": { "type": "array" },
+            "checkedAt": { "type": "string" }
+        },
+        "required": ["domain", "status", "technologies", "checkedAt"]
+    },
+    "views": {
+        "overview": {
+            "title": "Overview",
+            "transformation": {
+                "fields": ["domain", "status", "platform", "cms", "ecommercePlatform", "hosting", "cdn", "webServer", "frameworks", "analytics", "technologyCount", "finalUrl", "blockedBy", "errorCode", "checkedAt"]
+            },
+            "display": {
+                "component": "table",
+                "properties": {
+                    "domain": { "label": "Domain", "format": "text" },
+                    "status": { "label": "Status", "format": "text" },
+                    "platform": { "label": "Platform", "format": "text" },
+                    "cms": { "label": "CMS / builder", "format": "text" },
+                    "ecommercePlatform": { "label": "Ecommerce", "format": "text" },
+                    "hosting": { "label": "Hosting", "format": "array" },
+                    "cdn": { "label": "CDN", "format": "array" },
+                    "webServer": { "label": "Web server", "format": "text" },
+                    "frameworks": { "label": "Frameworks", "format": "array" },
+                    "analytics": { "label": "Analytics (partial)", "format": "array" },
+                    "technologyCount": { "label": "# techs", "format": "number" },
+                    "finalUrl": { "label": "Final URL", "format": "link" },
+                    "blockedBy": { "label": "Blocked by", "format": "text" },
+                    "errorCode": { "label": "Error", "format": "text" },
+                    "checkedAt": { "label": "Checked at", "format": "date" }
+                }
+            }
+        }
+    }
+}

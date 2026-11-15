@@ -1,0 +1,11 @@
+{
+    "_note": "PLANNED pricing only. Not published. Apify pay-per-event is configured in Console > Publication > Monetization; this file documents what to enter there.",
+    "site-read": {
+        "eventTitle": "Website read",
+        "eventDescription": "Charged once per website we successfully read and analyzed. Blocked sites, errors, timeouts and invalid inputs are free.",
+        "eventPriceUsd": 0.005,
+        "isPrimaryEvent": true
+    },
+    "apify-actor-start": { "eventPriceUsd": 0.00005, "_note": "Apify default; keep" },
+    "apify-default-dataset-item": { "_note": "DELETE this synthetic event (price must be 0), otherwise free blocked/error rows would be charged and read sites charged twice" }
+}

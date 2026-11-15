@@ -1,0 +1,43 @@
+
+Warning: You are using an old version of Apify CLI. We strongly recommend you always use the latest available version.
+       ↪ Run npm install -g apify-cli@latest to update! 👍 
+
+Info: All default local stores were purged.
+Warning: You are not logged in with your Apify Account. Some features like Apify Proxy will not work. Call "apify login" to fix that.
+Run: npm run start
+
+> website-tech-stack-lookup@0.1.0 start
+> node src/main.js
+
+INFO  System info {"apifyVersion":"3.7.2","apifyClientVersion":"2.26.0","crawleeVersion":"3.18.2","osType":"Linux","nodeVersion":"v24.22.1"}
+INFO  Checking 26 sites (concurrency 10, timeout 20s). 0 invalid inputs skipped.
+INFO  Loaded 7699 technology fingerprints.
+INFO  Max charge for this run: Infinity USD; price per site read: n/a (not pay-per-event)
+INFO  error   jonesbarbq.com HTTP_500 (38 ms)
+INFO  ok      techcrunch.com -> WordPress (914 ms)
+INFO  ok      colourpop.com -> Cart Functionality (2772 ms)
+INFO  ok      bathhouse.com -> Sanity (2971 ms)
+INFO  ok      gymshark.com -> Shopify (3127 ms)
+INFO  ok      wordpress.org -> WordPress (3390 ms)
+INFO  ok      whitehouse.gov -> WordPress (3844 ms)
+INFO  ok      time.com -> Contentstack (5366 ms)
+INFO  ok      squarespace.com -> Squarespace Commerce (5356 ms)
+INFO  ok      webflow.com -> Webflow (3688 ms)
+INFO  ok      objective.com -> Craft CMS (4193 ms)
+INFO  ok      soilboy.com -> Shopify (9205 ms)
+INFO  ok      brooklinen.com -> Shopify (11423 ms)
+INFO  ok      jasper.ai -> Webflow (8633 ms)
+INFO  ok      allbirds.com -> Shopify (12979 ms)
+INFO  blocked amazon.com AWS WAF (5787 ms)
+INFO  ok      bensherman.com -> Cart Functionality (6788 ms)
+INFO  ok      slite.com -> Sanity (9843 ms)
+INFO  ok      skullcandy.com -> Cart Functionality (9284 ms)
+INFO  ok      wix.com -> Wix eCommerce (15043 ms)
+INFO  ok      nike.com -> Cart Functionality (12023 ms)
+INFO  ok      apple.com -> Cart Functionality (10236 ms)
+INFO  blocked nytimes.com DataDome (6441 ms)
+INFO  ok      bestbuy.com -> Cart Functionality (8857 ms)
+INFO  ok      target.com -> Cart Functionality (9610 ms)
+INFO  ok      walmart.com -> Cart Functionality (11908 ms)
+INFO  Done: 23 read (charged 23), 2 blocked (free), 1 errors (free).
+INFO  [Status message]: Done: 23 read (charged 23), 2 blocked (free), 1 errors (free).

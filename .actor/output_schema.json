@@ -1,0 +1,19 @@
+{
+    "actorOutputSchemaVersion": 1,
+    "title": "Website Tech Stack Lookup output",
+    "description": "One row per site, plus a run summary.",
+    "properties": {
+        "sites": {
+            "type": "string",
+            "title": "Sites",
+            "description": "One row per website: status, platform, CMS, hosting, CDN and the full technology list.",
+            "template": "{{links.apiDefaultDatasetUrl}}/items"
+        },
+        "runSummary": {
+            "type": "string",
+            "title": "Run summary",
+            "description": "Counts of read, blocked and failed sites, timing and charging details.",
+            "template": "{{links.apiDefaultKeyValueStoreUrl}}/records/RUN_SUMMARY"
+        }
+    }
+}

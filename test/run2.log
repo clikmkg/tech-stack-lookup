@@ -1,0 +1,43 @@
+
+Warning: You are using an old version of Apify CLI. We strongly recommend you always use the latest available version.
+       ↪ Run npm install -g apify-cli@latest to update! 👍 
+
+Info: All default local stores were purged.
+Warning: You are not logged in with your Apify Account. Some features like Apify Proxy will not work. Call "apify login" to fix that.
+Run: npm run start
+
+> website-tech-stack-lookup@0.1.0 start
+> node src/main.js
+
+INFO  System info {"apifyVersion":"3.7.2","apifyClientVersion":"2.26.0","crawleeVersion":"3.18.2","osType":"Linux","nodeVersion":"v24.22.1"}
+INFO  Checking 26 sites (concurrency 10, timeout 20s). 1 invalid inputs skipped.
+INFO  Loaded 7699 technology fingerprints.
+INFO  Max charge for this run: Infinity USD; price per site read: n/a (not pay-per-event)
+INFO  error   jonesbarbq.com HTTP_500 (49 ms)
+INFO  ok      techcrunch.com -> WordPress (468 ms)
+INFO  ok      colourpop.com -> Shopify (1416 ms)
+INFO  ok      wordpress.org -> WordPress (1530 ms)
+INFO  ok      adamgrant.net -> WordPress (1076 ms)
+INFO  ok      whitehouse.gov -> WordPress (1727 ms)
+INFO  error   thesaltydonut.com HTTP_500 (300 ms)
+INFO  ok      gymshark.com -> Shopify (1807 ms)
+INFO  ok      brooklinen.com -> Shopify (2437 ms)
+INFO  ok      weddingsbylisanicole.com -> Squarespace (2492 ms)
+INFO  ok      squarespace.com -> Squarespace (2808 ms)
+INFO  ok      webflow.com -> Webflow (1595 ms)
+INFO  error   perpetualkid.com HTTP_500 (701 ms)
+INFO  ok      wix.com -> Wix (4182 ms)
+INFO  ok      jasper.ai -> Webflow (2793 ms)
+INFO  blocked solostove.com Cloudflare (2803 ms)
+INFO  ok      notarize.com -> Webflow (2916 ms)
+INFO  error   this-domain-does-not-exist-zq81.com HTTP_500 (114 ms)
+INFO  ok      kingarthurbaking.com -> Drupal (3080 ms)
+INFO  ok      allbirds.com -> Shopify (5284 ms)
+INFO  blocked nytimes.com DataDome (897 ms)
+INFO  blocked amazon.com AWS WAF (2482 ms)
+INFO  ok      walmart.com  (2817 ms)
+INFO  ok      apple.com  (2994 ms)
+INFO  ok      nike.com  (4191 ms)
+INFO  ok      target.com  (3253 ms)
+INFO  Done: 19 read (charged 19), 3 blocked (free), 4 errors (free).
+INFO  [Status message]: Done: 19 read (charged 19), 3 blocked (free), 4 errors (free).
