@@ -40,6 +40,7 @@ test('block detection', () => {
     assert.equal(detectBlock({ status: 200, html: '<html><title>Shop</title>' + 'x'.repeat(70000), headers: {} }), null);
     assert.equal(detectBlock({ status: 429, html: '', headers: {} }), 'HTTP 429');
     assert.equal(detectBlock({ status: 200, html: '<html><title>Bot Verification</title><p>Enable JavaScript and cookies</p></html>', headers: {} }), 'generic bot check');
+    assert.equal(detectBlock({ status: 200, html: '<html><title>Client Challenge</title></html>', headers: {} }), 'generic bot check');
 });
 
 test('parked domains are identified as free non-reads', () => {

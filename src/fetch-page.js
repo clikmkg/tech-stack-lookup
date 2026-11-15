@@ -83,7 +83,7 @@ const CHALLENGES = [
     { by: 'AWS WAF', re: /awsWafCookieDomainList|gokuProps/ },
     { by: 'Vercel', re: /vercel security checkpoint/i },
     { by: 'Sucuri', re: /sucuri website firewall|sucuri-cloudproxy/i },
-    { by: 'generic bot check', re: /<title>[^<]*(captcha|are you a robot|verify you are human|bot check|bot verification|checking your browser|security check)[^<]*<\/title>|enable javascript and cookies|please wait while we verify/i },
+    { by: 'generic bot check', re: /<title>[^<]*(captcha|are you a robot|verify you are human|bot check|client challenge|bot verification|checking your browser|security check)[^<]*<\/title>|enable javascript and cookies|please wait while we verify/i },
 ];
 
 const PARKED = [
