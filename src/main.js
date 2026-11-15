@@ -45,8 +45,26 @@ if (!targets.length) {
 }
 log.info(`Checking ${targets.length} sites (concurrency ${maxConcurrency}, timeout ${timeoutMs / 1000}s). ${invalid.length} invalid inputs skipped.`);
 
-const rules = loadRules();
-log.info(`Loaded ${rules.techs.length} technology fingerprints.`);
+let rules;
+try {
+    rules = loadRules();
+    log.info(`Loaded ${rules.techs.length} technology fingerprints.`);
+} catch (err) {
+    const message = String(err?.message || err).slice(0, 500);
+    log.exception(err, 'Unable to load technology fingerprint rules');
+    await Actor.setValue('RUN_SUMMARY', {
+        sitesRequested: targets.length,
+        invalidInputs: invalid,
+        ok: 0,
+        blocked: 0,
+        error: 0,
+        charged: 0,
+        stopReason: 'rules failed to load',
+        errorCode: 'RULES_INVALID',
+        errorMessage: message,
+    });
+    await Actor.fail(`Unable to load technology fingerprint rules: ${message}`);
+}
 
 const charging = Actor.getChargingManager();
 const datasetInfo = await (await Actor.openDataset()).getInfo().catch(() => null);
