@@ -7,5 +7,5 @@
         "isPrimaryEvent": true
     },
     "apify-actor-start": { "eventPriceUsd": 0.00005, "_note": "Apify default; keep" },
-    "apify-default-dataset-item": { "_note": "DELETE this synthetic event (price must be 0), otherwise free blocked/error rows would be charged and read sites charged twice" }
+    "apify-default-dataset-item": { "_note": "DELETE this synthetic event (price must be 0). In some Console views this appears as result. Otherwise free blocked/error rows are charged and read sites are charged twice." }
 }

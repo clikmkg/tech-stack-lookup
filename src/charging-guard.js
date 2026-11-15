@@ -6,6 +6,10 @@
 // delivered/charged items exactly, and (d) can warn loudly when the default event is priced.
 
 export const DEFAULT_DATASET_ITEM_EVENT = 'apify-default-dataset-item';
+// Apify Console has shown this synthetic/default dataset charge as `result`
+// in some monetization configurations. Treat both aliases as the same default
+// dataset item charge so free blocked/error rows are never silently billed.
+export const DEFAULT_DATASET_ITEM_EVENTS = [DEFAULT_DATASET_ITEM_EVENT, 'result'];
 
 export function createChargeGuard(charging, { eventName, isAtHome, isDefaultDataset = true }) {
     const info = charging.getPricingInfo();
@@ -17,9 +21,9 @@ export function createChargeGuard(charging, { eventName, isAtHome, isDefaultData
     const sitePrice = priceOf(eventName);
     // The SDK only adds the default-dataset event when the push goes to the run's default dataset
     // (dataset.id === config defaultDatasetId); that is always true on the platform.
-    const defaultItemPrice = isDefaultDataset ? priceOf(DEFAULT_DATASET_ITEM_EVENT) : 0;
+    const defaultItemPrice = isDefaultDataset ? DEFAULT_DATASET_ITEM_EVENTS.reduce((sum, e) => sum + priceOf(e), 0) : 0;
     const perItemUsd = sitePrice + defaultItemPrice;
-    const events = [...new Set([...Object.keys(prices), eventName, DEFAULT_DATASET_ITEM_EVENT])];
+    const events = [...new Set([...Object.keys(prices), eventName, ...DEFAULT_DATASET_ITEM_EVENTS])];
 
     const spentUsd = () => events.reduce((sum, e) => sum + charging.getChargedEventCount(e) * priceOf(e), 0);
     const maxTotal = () => charging.getMaxTotalChargeUsd();
@@ -38,7 +42,9 @@ export function createChargeGuard(charging, { eventName, isAtHome, isDefaultData
         if (isPpe) {
             // Cross-check with the SDK's own per-event budget so we never trigger its overcharge-by-one.
             if (sitePrice > 0 && charging.calculateMaxEventChargeCountWithinLimit(eventName) <= 0) return [];
-            if (defaultItemPrice > 0 && charging.calculateMaxEventChargeCountWithinLimit(DEFAULT_DATASET_ITEM_EVENT) <= 0) return [];
+            for (const event of DEFAULT_DATASET_ITEM_EVENTS) {
+                if (priceOf(event) > 0 && charging.calculateMaxEventChargeCountWithinLimit(event) <= 0) return [];
+            }
         }
         // The SDK's exact pushData budgeting (combined price of both events) has the final word.
         const { limitedItems } = charging.calculatePushDataLimits({ items: batch.slice(0, n), eventName, isDefaultDataset });
@@ -46,8 +52,12 @@ export function createChargeGuard(charging, { eventName, isAtHome, isDefaultData
     }
 
     const warnings = [];
-    if (isPpe && isAtHome && Number(prices[DEFAULT_DATASET_ITEM_EVENT] || 0) > 0) {
-        warnings.push(`Pricing has a price on "${DEFAULT_DATASET_ITEM_EVENT}" ($${prices[DEFAULT_DATASET_ITEM_EVENT]}/item) in addition to "${eventName}" ($${sitePrice}/item). Every site is charged BOTH (combined $${perItemUsd}/site). Delete the default dataset item event in Console > Publication > Monetization. The run caps sites using the combined price so the user's max charge is respected.`);
+    if (isPpe && isAtHome) {
+        for (const event of DEFAULT_DATASET_ITEM_EVENTS) {
+            if (Number(prices[event] || 0) > 0) {
+                warnings.push(`Pricing has a price on default dataset event "${event}" ($${prices[event]}/item) in addition to "${eventName}" ($${sitePrice}/item). Every site may be charged BOTH (combined $${perItemUsd}/site). Remove the default dataset/result event price in Console > Publication > Monetization. The run caps sites using the combined price so the user's max charge is respected.`);
+            }
+        }
     }
     if (isPpe && isAtHome && !(Number(prices[eventName] || 0) > 0)) {
         warnings.push(`Pay-per-event pricing is active but "${eventName}" has no price configured; sites are not being charged by this Actor's event.`);
