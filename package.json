@@ -1,0 +1,17 @@
+{
+  "name": "website-tech-stack-lookup",
+  "version": "0.1.0",
+  "description": "Website platform and tech stack lookup Actor",
+  "main": "src/main.js",
+  "type": "module",
+  "license": "GPL-3.0-or-later",
+  "scripts": {
+    "start": "node src/main.js",
+    "build-rules": "node scripts/build-rules.js",
+    "test": "node --test test/*.test.js"
+  },
+  "dependencies": {
+    "apify": "3.7.2",
+    "cheerio": "1.1.2"
+  }
+}
