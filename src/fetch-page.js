@@ -83,7 +83,13 @@ const CHALLENGES = [
     { by: 'AWS WAF', re: /awsWafCookieDomainList|gokuProps/ },
     { by: 'Vercel', re: /vercel security checkpoint/i },
     { by: 'Sucuri', re: /sucuri website firewall|sucuri-cloudproxy/i },
-    { by: 'generic captcha', re: /<title>[^<]*(captcha|are you a robot|verify you are human|bot check)[^<]*<\/title>/i },
+    { by: 'generic bot check', re: /<title>[^<]*(captcha|are you a robot|verify you are human|bot check|bot verification|checking your browser|security check)[^<]*<\/title>|enable javascript and cookies|please wait while we verify/i },
+];
+
+const PARKED = [
+    /<title>[^<]*(domain|website)[^<]*(for sale|parked|coming soon)[^<]*<\/title>/i,
+    /(?:this domain|this website)\s+(?:is\s+)?(?:for sale|parked)/i,
+    /buy this domain|domain parking|domain may be for sale/i,
 ];
 
 /** Returns null when the page looks real, or a short reason when it's a block/challenge. */
@@ -98,4 +104,10 @@ export function detectBlock({ status, html, headers }) {
     if (status === 403 || status === 429 || status === 401) return `HTTP ${status}`;
     if (status === 503 && small) return 'HTTP 503';
     return null;
+}
+
+/** Returns a reason when a response is a low-value parked/placeholder domain. */
+export function detectParked({ status, html }) {
+    if (status >= 400 || html.length > 100000) return null;
+    return PARKED.find((re) => re.test(html)) ? 'parked domain' : null;
 }

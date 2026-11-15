@@ -1,7 +1,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { loadRules, extractPage, analyze, summarize } from '../src/engine.js';
-import { detectBlock } from '../src/fetch-page.js';
+import { detectBlock, detectParked } from '../src/fetch-page.js';
 import { connectionCandidates, isRetryableConnectionError } from '../src/connection-plan.js';
 
 const rules = loadRules();
@@ -39,6 +39,12 @@ test('block detection', () => {
     assert.equal(detectBlock({ status: 403, html: '<title>Just a moment...</title><script>cf_chl_opt={}</script>', headers: {} }), 'Cloudflare');
     assert.equal(detectBlock({ status: 200, html: '<html><title>Shop</title>' + 'x'.repeat(70000), headers: {} }), null);
     assert.equal(detectBlock({ status: 429, html: '', headers: {} }), 'HTTP 429');
+    assert.equal(detectBlock({ status: 200, html: '<html><title>Bot Verification</title><p>Enable JavaScript and cookies</p></html>', headers: {} }), 'generic bot check');
+});
+
+test('parked domains are identified as free non-reads', () => {
+    assert.equal(detectParked({ status: 200, html: '<html><title>This Domain Is For Sale</title><p>Buy this domain</p></html>' }), 'parked domain');
+    assert.equal(detectParked({ status: 200, html: '<html><title>Real website</title><p>Welcome to our store.</p></html>' }), null);
 });
 
 test('connection candidates preserve paths and cover both host/protocol variants', () => {
@@ -54,5 +60,6 @@ test('connection candidates preserve paths and cover both host/protocol variants
 test('connection fallback recognizes common proxy and TLS failures', () => {
     assert.equal(isRetryableConnectionError(Object.assign(new Error('socket hang up'), { code: 'ECONNRESET' })), true);
     assert.equal(isRetryableConnectionError(Object.assign(new Error('tls alert'), { code: 'ERR_SSL_PROTOCOL_ERROR' })), true);
+    assert.equal(isRetryableConnectionError(Object.assign(new Error('timed out'), { name: 'TimeoutError' })), true);
     assert.equal(isRetryableConnectionError(Object.assign(new Error('forbidden'), { code: 'HTTP_403' })), false);
 });

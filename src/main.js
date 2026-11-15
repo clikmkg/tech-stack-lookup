@@ -3,7 +3,7 @@
 // Pay per event: only sites we actually read are charged ("site-read"). Blocked and error rows are free.
 import { Actor, log } from 'apify';
 import { loadRules, extractPage, analyze, summarize } from './engine.js';
-import { fetchPage, detectBlock } from './fetch-page.js';
+import { fetchPage, detectBlock, detectParked } from './fetch-page.js';
 import { createChargeGuard } from './charging-guard.js';
 import { connectionCandidates, errorCode, isRetryableConnectionError } from './connection-plan.js';
 
@@ -95,15 +95,21 @@ async function checkSite(t) {
     let recoveredVia = null;
     const base = { domain: t.domain, input: t.input, requestedUrl: t.url, connectionAttempts };
     const remaining = () => timeoutMs - (Date.now() - started);
-    let { page, err } = await attempt(t.url);
+    const candidates = connectionCandidates(t.url);
+    // Reserve half the site budget for alternate origins so a timeout can still
+    // try www/apex and HTTP variants without exceeding timeoutSecs overall.
+    let { page, err } = await attempt(t.url, candidates.length > 1 ? Math.floor(timeoutMs / 2) : timeoutMs);
     // Try the alternate public origin only for connection-level failures. A
     // 401/403/429/challenge is a real response and must stay blocked, not be
     // retried as if it were an unreachable site.
     if (err && isRetryableConnectionError(err)) {
-        for (const candidate of connectionCandidates(t.url).slice(1)) {
+        const fallbacks = candidates.slice(1);
+        for (let i = 0; i < fallbacks.length; i++) {
+            const candidate = fallbacks[i];
             if (remaining() <= 0) break;
             connectionAttempts.push(candidate);
-            const r = await attempt(candidate, remaining());
+            const attemptsLeft = fallbacks.length - i;
+            const r = await attempt(candidate, Math.floor(remaining() / attemptsLeft));
             if (r.page && r.page.status < 500) { page = r.page; err = null; recoveredVia = candidate; break; }
             if (r.err) err = r.err;
         }
@@ -115,9 +121,13 @@ async function checkSite(t) {
         row = { ...base, finalUrl: null, status: 'error', charged: false, httpStatus: null, errorCode: e.code, errorMessage: e.message, technologies: [], checkedAt };
     } else {
         const blockedBy = detectBlock(page);
+        const parkedBy = detectParked(page);
         const isHtml = /html|xml/i.test(page.headers['content-type'] || 'text/html');
         if (blockedBy) {
             row = { ...base, finalUrl: page.finalUrl, status: 'blocked', charged: false, httpStatus: page.status, blockedBy, technologies: [], checkedAt };
+        } else if (parkedBy) {
+            row = { ...base, finalUrl: page.finalUrl, status: 'error', charged: false, httpStatus: page.status,
+                errorCode: 'PARKED_DOMAIN', errorMessage: 'Parked or placeholder domain', technologies: [], checkedAt };
         } else if (page.status >= 400 || !isHtml || page.html.trim().length < 50) {
             row = { ...base, finalUrl: page.finalUrl, status: 'error', charged: false, httpStatus: page.status,
                 errorCode: page.status >= 400 ? `HTTP_${page.status}` : (!isHtml ? 'NOT_HTML' : 'EMPTY_PAGE'),
@@ -138,7 +148,7 @@ async function checkSite(t) {
             };
         }
     }
-    if (recoveredVia) row.recoveredVia = recoveredVia;
+    if (recoveredVia && row.status === 'ok') row.recoveredVia = recoveredVia;
     row.responseTimeMs = Date.now() - started;
     timings.push({ ms: row.responseTimeMs, status: row.status });
     return row;
